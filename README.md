@@ -1,5 +1,7 @@
 # Polimi Logical Network Memory Query Project
 
+### Grade: 30L/30
+
 ## Overview
 
 This project was developed as a final project for the "Logical Network" course at Politecnico di Milano. The main objective was to implement a hardware component defined by a given specification.
