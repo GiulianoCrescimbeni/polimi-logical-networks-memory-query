@@ -217,19 +217,19 @@ begin
         when "0010" => o_mem_addr <= "000000000000000" & r_as(0);
         when "0011" => o_mem_addr <= "00000000000000" & r_as(0) & r_as(1);
         when "0100" => o_mem_addr <= "0000000000000" & r_as(0) & r_as(1) & r_as(2);
-        when "0101" => o_mem_addr <= "000000000000” & r_as(0) & r_as(1) & r_as(2) & r_as(3);
-        when “0110” => o_mem_addr <= “00000000000” & r_as(0) & r_as(1) & r_as(2) & r_as(3) & r_as(4);
-        when “0111” => o_mem_addr <= “0000000000” & r_as(0) & r_as(1) & r_as(2) & r_as(3) & r_as(4) & r_as(5);
-        when “1000” => o_mem_addr <= “000000000” & r_as(0) & r_as(1) & r_as(2) & r_as(3) & r_as(4) & r_as(5) & r_as(6);
-        when “1001” => o_mem_addr <= “00000000” & r_as(0) & r_as(1) & r_as(2) & r_as(3) & r_as(4) & r_as(5) & r_as(6) & r_as(7);
-        when “1010” => o_mem_addr <= “0000000” & r_as(0) & r_as(1) & r_as(2) & r_as(3) & r_as(4) & r_as(5) & r_as(6) & r_as(7) & r_as(8);
-        when “1011” => o_mem_addr <= “000000” & r_as(0) & r_as(1) & r_as(2) & r_as(3) & r_as(4) & r_as(5) & r_as(6) & r_as(7) & r_as(8) & r_as(9);
-        when “1100” => o_mem_addr <= “00000” & r_as(0) & r_as(1) & r_as(2) & r_as(3) & r_as(4) & r_as(5) & r_as(6) & r_as(7) & r_as(8) & r_as(9) & r_as(10);
-        when “1101” => o_mem_addr <= “0000” & r_as(0) & r_as(1) & r_as(2) & r_as(3) & r_as(4) & r_as(5) & r_as(6) & r_as(7) & r_as(8) & r_as(9) & r_as(10) & r_as(11);
-        when “1110” => o_mem_addr <= “000” & r_as(0) & r_as(1) & r_as(2) & r_as(3) & r_as(4) & r_as(5) & r_as(6) & r_as(7) & r_as(8) & r_as(9) & r_as(10) & r_as(11) & r_as(12);
-        when “1111” => o_mem_addr <= “00” & r_as(0) & r_as(1) & r_as(2) & r_as(3) & r_as(4) & r_as(5) & r_as(6) & r_as(7) & r_as(8) & r_as(9) & r_as(10) & r_as(11) & r_as(12) & r_as(13);
-        when “0000” => o_mem_addr <= “0” & r_as(0) & r_as(1) & r_as(2) & r_as(3) & r_as(4) & r_as(5) & r_as(6) & r_as(7) & r_as(8) & r_as(9) & r_as(10) & r_as(11) & r_as(12) & r_as(13) & r_as(14);
-        when others => o_mem_addr <= “XXXXXXXXXXXXXXXX”;
+        when "0101" => o_mem_addr <= "000000000000" & r_as(0) & r_as(1) & r_as(2) & r_as(3);
+        when “0110” => o_mem_addr <= "00000000000" & r_as(0) & r_as(1) & r_as(2) & r_as(3) & r_as(4);
+        when “0111” => o_mem_addr <= "0000000000" & r_as(0) & r_as(1) & r_as(2) & r_as(3) & r_as(4) & r_as(5);
+        when “1000” => o_mem_addr <= "000000000" & r_as(0) & r_as(1) & r_as(2) & r_as(3) & r_as(4) & r_as(5) & r_as(6);
+        when “1001” => o_mem_addr <= "00000000" & r_as(0) & r_as(1) & r_as(2) & r_as(3) & r_as(4) & r_as(5) & r_as(6) & r_as(7);
+        when “1010” => o_mem_addr <= "0000000" & r_as(0) & r_as(1) & r_as(2) & r_as(3) & r_as(4) & r_as(5) & r_as(6) & r_as(7) & r_as(8);
+        when “1011” => o_mem_addr <= "000000" & r_as(0) & r_as(1) & r_as(2) & r_as(3) & r_as(4) & r_as(5) & r_as(6) & r_as(7) & r_as(8) & r_as(9);
+        when “1100” => o_mem_addr <= "00000" & r_as(0) & r_as(1) & r_as(2) & r_as(3) & r_as(4) & r_as(5) & r_as(6) & r_as(7) & r_as(8) & r_as(9) & r_as(10);
+        when “1101” => o_mem_addr <= "0000" & r_as(0) & r_as(1) & r_as(2) & r_as(3) & r_as(4) & r_as(5) & r_as(6) & r_as(7) & r_as(8) & r_as(9) & r_as(10) & r_as(11);
+        when “1110” => o_mem_addr <= "000" & r_as(0) & r_as(1) & r_as(2) & r_as(3) & r_as(4) & r_as(5) & r_as(6) & r_as(7) & r_as(8) & r_as(9) & r_as(10) & r_as(11) & r_as(12);
+        when “1111” => o_mem_addr <= "00" & r_as(0) & r_as(1) & r_as(2) & r_as(3) & r_as(4) & r_as(5) & r_as(6) & r_as(7) & r_as(8) & r_as(9) & r_as(10) & r_as(11) & r_as(12) & r_as(13);
+        when “0000” => o_mem_addr <= "0" & r_as(0) & r_as(1) & r_as(2) & r_as(3) & r_as(4) & r_as(5) & r_as(6) & r_as(7) & r_as(8) & r_as(9) & r_as(10) & r_as(11) & r_as(12) & r_as(13) & r_as(14);
+        when others => o_mem_addr <= "XXXXXXXXXXXXXXXX";
     end case;
 end process AS_Shift;
 
@@ -238,10 +238,10 @@ Z_Register : process(i_clk, w_z_reg_rst) is
 –Saving memory output
 begin
 if w_z_reg_rst = ‘1’ then
-r_z_reg_0 <= “00000000”;
-r_z_reg_1 <= “00000000”;
-r_z_reg_2 <= “00000000”;
-r_z_reg_3 <= “00000000”;
+r_z_reg_0 <= "00000000";
+r_z_reg_1 <= "00000000";
+r_z_reg_2 <= "00000000";
+r_z_reg_3 <= "00000000";
 elsif rising_edge(i_clk) then
 if w_z_reg_enable = ‘1’ then
 case r_car is
@@ -265,10 +265,10 @@ o_z1 <= r_z_reg_1;
 o_z2 <= r_z_reg_2;
 o_z3 <= r_z_reg_3;
 elsif w_done = ‘0’ then
-o_z0 <= “00000000”;
-o_z1 <= “00000000”;
-o_z2 <= “00000000”;
-o_z3 <= “00000000”;
+o_z0 <= "00000000";
+o_z1 <= "00000000";
+o_z2 <= "00000000";
+o_z3 <= "00000000";
 end if;
 end process Output;
 
