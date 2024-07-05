@@ -40,7 +40,7 @@ The implementation of the hardware component is provided in the following VHDL f
 
 For a full documentation about the project, see the report:
 
-- [Documentation](report.vhd)
+- [Documentation](ProjectReport.pdf)
 
 ## Experimental Results
 
